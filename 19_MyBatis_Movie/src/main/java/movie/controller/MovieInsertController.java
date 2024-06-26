@@ -34,12 +34,12 @@ public class MovieInsertController {
 		//System.out.println("continent: " + movie.getContinent());
 		//System.out.println("nation: " + movie.getNation());
 		
-		if(result.hasErrors()) {
-			return getPage;
-		}
+		//kim ÆÀ¿ø »èÁ¦
 		
 		int cnt = -1;
 		cnt = movieDao.insertMovie(movie);
+		
+		//kim ÆÀ¿ø Ãß°¡
 		
 		if(cnt != -1) {
 			return gotoPage;
