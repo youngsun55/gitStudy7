@@ -40,6 +40,8 @@ public class MovieInsertController {
 		cnt = movieDao.insertMovie(movie);
 		
 		//kim 팀원 추가
+		//kim 브랜치 작업
+		//kim 브랜치 작업
 		
 		if(cnt != -1) {
 			return gotoPage;
